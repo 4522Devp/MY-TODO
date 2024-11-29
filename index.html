@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>TO-Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1><i class="fa-solid fa-list-check"></i>MY TO-DO LIST</h1>
+
+        <div class="todo-conatainer">
+            <div class="input-group">
+                <label for="task-input"><i class="fa-solid fa-pencil"></i>Task</label>
+                <input type="text" id="task-input" placeholder="Add a new Task">
+            </div>
+            <div class="input-group">
+                <label for="data-input"><i class="fa-solid fa-calendar-days"></i>Date</label>
+                <input type="date" name="" id="data-input">
+            </div>
+
+            <div class="input-group">
+                <label for="time-input"><i class="fa-solid fa-clock"></i>Time</label>
+                <input type="time" name="" id="time-input">
+
+                <select name="ampm-input" id="ampm-input">
+                    <option value="AM">Am</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <button id="addtaskbutton"><i class="fas fa-plus"></i>ADD TASK</button>
+        </div>
+
+        <div>
+            <div id="New_Todos">
+                <ul >
+                   
+                </ul>
+               </div>
+    </div>
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+    
